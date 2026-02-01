@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Briciola – Contatti</title>
+  <link rel="stylesheet" href="css/style-minimal.css" id="theme-stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">Studio Briciola</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="works.html">Progetti</a>
+      <a href="contact.html">Contatti</a>
+    </nav>
+    <button id="toggle-theme">Cambia veste</button>
+  </header>
+
+<main class="contact">
+
+  <h1>Contattami!</h1>
+
+  <div class="contact-box">
+
+    <p class="contact-intro">
+      Per collaborazioni, proposte, portfolio e curricula.
+    </p>
+
+    <form id="contact-form" novalidate>
+
+      <div class="form-field">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-field">
+        <label for="message">Messaggio</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+
+      <button type="submit">Invia messaggio</button>
+
+      <p class="form-feedback" id="form-feedback"></p>
+
+    </form>
+
+  </div>
+
+</main>
+
+
+  <footer>
+    <p>© 2026 Studio Briciola</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
